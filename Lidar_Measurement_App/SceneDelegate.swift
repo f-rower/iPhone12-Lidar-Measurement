@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Lidar_Measurement_App
 //
-//  Created by Maisha Mohamed on 26/02/2021.
+//  Created by F-Rower on 26/02/2021.
 //
 
 import UIKit

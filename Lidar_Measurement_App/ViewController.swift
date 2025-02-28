@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Lidar_Measurement_App
 //
-//  Created by Francisco Gomez Medina on 25/02/2021.
+//  Created by F-Rower on 25/02/2021.
 //
 
 import UIKit
@@ -19,7 +19,7 @@ class ViewController: UIViewController, ARSessionDelegate, UITextFieldDelegate{
     var filename : URL = URL(string:"a")! //The full path of the file. Initialise to some random value
     
     @IBOutlet weak var sceneView: ARSCNView!
-    @IBOutlet weak var arview: ARView! //For some reason this is the only thing i can use to be able to see the camera feed lol
+    @IBOutlet weak var arview: ARView! //For some reason this is the only thing i can use to be able to see the camera feed
     
     @IBAction func startButton(_ sender: UIButton) {
         flag = 1
